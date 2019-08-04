@@ -416,8 +416,8 @@ li p, .art-postcontent li p, .art-blockcontent li p
 {  
   position: absolute;
   top: 6px;
-  left: 2.69%;
-  margin-left: -7px !important;
+  left: 3.94%;
+  margin-left: -19px !important;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -428,7 +428,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
   background-position: 0px 0px;
   background-repeat: no-repeat;
     z-index: 5;
-  width: 296px;
+  width: 483px;
   height: 180px;
 }
 
@@ -446,9 +446,9 @@ li p, .art-postcontent li p, .art-blockcontent li p
 {
   display: table-cell;
   outline-style: none;
-  padding: 27px 44px !important;
+  padding: 27px 71px !important;
   height: 126px;
-  width: 208px;  
+  width: 341px;  
 word-wrap: break-word;
 }
 

@@ -1207,17 +1207,17 @@ resizeData['object11755144'] = {
 
 resizeData['object1488446561'] = {
    responsive: [
-                  { left: 0.03, top: 0.3, visible: true }, 
-                  { left: 0.03, top: 0.3, visible: true }, 
-                  { left: 0.03, top: 0.3, visible: true }, 
-                  { left: 0.03, top: 0.3, visible: true }, 
-                  { left: 0.03, top: 0.3, visible: true }, 
+                  { left: 0.04, top: 0.3, visible: true }, 
+                  { left: 0.04, top: 0.3, visible: true }, 
+                  { left: 0.04, top: 0.3, visible: true }, 
+                  { left: 0.04, top: 0.3, visible: true }, 
+                  { left: 0.04, top: 0.3, visible: true }, 
                ],
    area: {
        x: 0,
        y: 0
    },
-   width: 296,
+   width: 483,
    height: 180,
    autoWidth: false};
 
