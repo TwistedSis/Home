@@ -444,16 +444,6 @@ jQuery(function($) {
     });
 });
 
-jQuery(window).bind("responsiveNav", (function ($) {
-    /*global menuExtendedCreate */
-    "use strict";
-    return function (event, options) {
-        if (options.responsiveDesign.isDesktop && $("li.ext").length > 0) {
-            menuExtendedCreate();
-        }
-    };
-})(jQuery));
-
 var responsiveLayoutCell = (function ($) {
     "use strict";
     return function (responsiveDesign) {
@@ -493,9 +483,6 @@ jQuery(window).bind("responsive", function (event, responsiveDesign) {
 
     responsiveLayoutCell(responsiveDesign);
 });
-
-/*global jQuery, responsiveDesign*/
-
 
 
 
