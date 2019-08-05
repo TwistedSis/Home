@@ -67,7 +67,8 @@ ul.art-vmenu a
 .art-postcontent a:hover,
 .art-postcontent a.hovered
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent p
@@ -88,7 +89,7 @@ ul.art-vmenu a
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: normal;
    font-style: normal;
    line-height: 120%;
@@ -96,16 +97,17 @@ ul.art-vmenu a
 
 .art-postcontent a, .art-postcontent a:link
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    text-decoration: none;
-   color: #17A1D4;
+   color: #173DD3;
 }
 
 .art-postcontent a:visited, .art-postcontent a.visited
 {
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
-   color: #5AA4C9;
+   color: #173DD3;
 }
 
 .art-postcontent  a:hover, .art-postcontent a.hover
@@ -120,20 +122,20 @@ ul.art-vmenu a
    color: #39BAEA;
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h1
 {
    margin: 10px 0 0;
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h1 a, .art-postcontent h1 a:link, .art-postcontent h1 a:hover, .art-postcontent h1 a:visited, .art-blockcontent h1 a, .art-blockcontent h1 a:link, .art-blockcontent h1 a:hover, .art-blockcontent h1 a:visited 
 {
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h2
@@ -141,20 +143,20 @@ ul.art-vmenu a
    color: #39BAEA;
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h2
 {
    margin: 10px 0 0;
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h2 a, .art-postcontent h2 a:link, .art-postcontent h2 a:hover, .art-postcontent h2 a:visited, .art-blockcontent h2 a, .art-blockcontent h2 a:link, .art-blockcontent h2 a:hover, .art-blockcontent h2 a:visited 
 {
    font-size: 22px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h3
@@ -162,20 +164,20 @@ ul.art-vmenu a
    color: #79B5D3;
    margin: 10px 0 0;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h3
 {
    margin: 10px 0 0;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h3 a, .art-postcontent h3 a:link, .art-postcontent h3 a:hover, .art-postcontent h3 a:visited, .art-blockcontent h3 a, .art-blockcontent h3 a:link, .art-blockcontent h3 a:hover, .art-blockcontent h3 a:visited 
 {
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h4
@@ -183,20 +185,20 @@ ul.art-vmenu a
    color: #122A36;
    margin: 10px 0 0;
    font-size: 16px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h4
 {
    margin: 10px 0 0;
    font-size: 16px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h4 a, .art-postcontent h4 a:link, .art-postcontent h4 a:hover, .art-postcontent h4 a:visited, .art-blockcontent h4 a, .art-blockcontent h4 a:link, .art-blockcontent h4 a:hover, .art-blockcontent h4 a:visited 
 {
    font-size: 16px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h5
@@ -204,20 +206,20 @@ ul.art-vmenu a
    color: #122A36;
    margin: 10px 0 0;
    font-size: 14px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h5
 {
    margin: 10px 0 0;
    font-size: 14px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h5 a, .art-postcontent h5 a:link, .art-postcontent h5 a:hover, .art-postcontent h5 a:visited, .art-blockcontent h5 a, .art-blockcontent h5 a:link, .art-blockcontent h5 a:hover, .art-blockcontent h5 a:visited 
 {
    font-size: 14px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h6
@@ -225,20 +227,20 @@ ul.art-vmenu a
    color: #2E6B8A;
    margin: 10px 0 0;
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent h6
 {
    margin: 10px 0 0;
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-postcontent h6 a, .art-postcontent h6 a:link, .art-postcontent h6 a:hover, .art-postcontent h6 a:visited, .art-blockcontent h6 a, .art-blockcontent h6 a:link, .art-blockcontent h6 a:hover, .art-blockcontent h6 a:visited 
 {
    font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 header, footer, article, nav, #art-hmenu-bg, .art-sheet, .art-hmenu a, .art-vmenu a, .art-slidenavigator > a, .art-checkbox:before, .art-radiobutton:before
@@ -288,7 +290,7 @@ body
    padding: 0;
    margin:0;
    min-width: 700px;
-   color: #122A36;
+   color: #000000;
 }
 
 .art-header:after, 
@@ -705,8 +707,8 @@ ul.art-hmenu>li>a
 {
    font-size: 14px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
-   font-weight: normal;
-   font-style: normal;
+   font-weight: bold;
+   font-style: italic;
    text-decoration: none;
    text-align: left;
 }
@@ -1034,7 +1036,7 @@ div.art-block img
 {
    color: #094357;
    font-size: 20px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: normal;
    font-style: normal;
    margin: 0 10px;
@@ -1853,7 +1855,7 @@ pre
    color: #0A4A61;
    margin: 5px 0;
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: normal;
    font-style: normal;
 }
@@ -1866,14 +1868,14 @@ pre
 .art-postheader a.hovered
 {
    font-size: 26px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: normal;
    font-style: normal;
 }
 
 .art-postheader a, .art-postheader a:link
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    text-decoration: none;
    text-align: left;
    color: #1490BD;
@@ -1881,7 +1883,7 @@ pre
 
 .art-postheader a:visited, .art-postheader a.visited
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    text-decoration: none;
    text-align: left;
    color: #3F95C0;
@@ -1889,7 +1891,7 @@ pre
 
 .art-postheader a:hover,  .art-postheader a.hovered
 {
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
    text-decoration: none;
    text-align: left;
    color: #00C7EB;
@@ -2051,37 +2053,37 @@ blockquote p,
 .art-footer h1
 {
    color: #42BEEB;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer h2
 {
    color: #42BEEB;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer h3
 {
    color: #97C6DD;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer h4
 {
    color: #3986AD;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer h5
 {
    color: #3986AD;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer h6
 {
    color: #3986AD;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-footer img
