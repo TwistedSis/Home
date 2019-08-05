@@ -99,6 +99,8 @@ ul.art-vmenu a
 {
    font-size: 18px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
    text-decoration: none;
    color: #173DD3;
 }
@@ -1094,6 +1096,8 @@ div.art-block img
    color: #173DD3;
    font-size: 18px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
@@ -1135,10 +1139,12 @@ div.art-block img
 
 .art-block li
 {
-   font-size: 13px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
    line-height: 125%;
-   color: #2A627F;
+   color: #173DD3;
    margin: 5px 0 0 10px;
 }
 
