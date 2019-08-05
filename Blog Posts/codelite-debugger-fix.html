@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.3.0.60858 -->
+    <meta charset="utf-8">
+    <title>codelite-debugger-fix</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="../style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="../style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="../style.responsive.css" media="all">
+
+
+    <script src="../jquery.js"></script>
+    <script src="../script.js"></script>
+    <script src="../script.responsive.js"></script>
+
+
+
+</head>
+<body>
+<div id="art-main">
+    <div id="art-header-bg">
+            </div>
+    <div class="art-sheet clearfix">
+<header class="art-header">
+
+    <div class="art-shapes">
+        <div class="art-object11755144"></div>
+<div class="art-textblock art-object1488446561">
+        <div class="art-object1488446561-text-container">
+        <div class="art-object1488446561-text"><p><span class="Apple-style-span" style="font-weight: bold; font-family: Georgia; font-size: 24px; font-style: italic;">Welcome to the TwistedSis</span></p><p><span class="Apple-style-span" style="font-weight: bold; font-family: Georgia; font-size: 24px; font-style: italic;">Github page.</span></p></div>
+    </div>
+    
+</div>
+            </div>
+
+
+
+
+
+
+                
+                    
+</header>
+<nav class="art-nav">
+    <ul class="art-hmenu"><li><a href="../home.html" class="">Home</a></li><li><a href="../blog.html" class="">Blog</a></li></ul> 
+    </nav>
+<div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">My projects</h3>
+        </div>
+        <div class="art-blockcontent"><p><br></p></div>
+</div></div>
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                <h2 class="art-postheader">codelite-debugger-fix</h2>
+                                <div class="art-postcontent art-postcontent-0 clearfix"><p><span style="font-family: Georgia; font-size: 14px; color: #000000;">&nbsp; &nbsp;</span><span style="font-family: Georgia; font-size: 14px;"><span style="color: rgb(0, 0, 0);">This fix for the codelite debugger works on windows.&nbsp;</span><span style="color: rgb(0, 0, 0);">Build, clean and run worked fine right from the start. &nbsp;The problem cropped up when trying to use the debugger. &nbsp;</span></span></p><p style="padding-left: 20px;"><span style="color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">When trying to debug I kept getting the following error:&nbsp;</span></p><p style="padding-left: 20px;"><span style="font-family: Georgia;"><span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0);"><span style="font-size: 14px;">'</span><span style="font-size: 16px;">Debugger exited with the following error string: "During startup program exited with code 0xc0000139.<!--CUT--></span><span style="font-size: 14px;">" '</span></span><br></span></p><p style="padding-left: 20px;"><span style="font-family: Georgia; font-size: 14px;"><span style="color: rgb(0, 0, 0);"><span style="font-weight: bold;">Meaning:</span> The linker could not access the&nbsp;<span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">libgcc &amp; libstdc++ libraries.</span></span> <span style="color: rgb(0, 0, 0);">I set the path for the g++.exe in my environments paths but, that did not fix the issue.</span></span></p><p><span style="color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">&nbsp; &nbsp;One suggestion was to set the flags&nbsp;<span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">-static-libgcc -static-libstdc++ on the default project template and save it. This works for projects created on my system but, not for projects imported into codelite from exernal sources.</span></span></p><p><span style="text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px; font-weight: bold;">The Fix:</span></p><p style="padding-left: 20px;"><span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">Navagate to: Setting &gt; <span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">build settings &gt; tools &gt;&nbsp;linker path and edit the linker path as follows.</span></span></p><p style="padding-left: 20px;"><span style="font-family: Georgia; font-size: 14px;"><span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">Change linker path from:&nbsp; &lt;installed drive&gt;:/&lt;install folder&gt;/bin/g++.exe</span><span style="color: #505763; font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094);"><span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094);"><br></span></span></span></p><p style="padding-left: 20px;"><span style="font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">To: <span style="color: #122A36; text-align: left;"><span style="font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">&lt;installed drive&gt;:/&lt;install folder&gt;/bin/g++.exe <span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094); color: #000000;">-static-libgcc -static-libstdc++</span></span></span></span></p><p style="padding-left: 20px;"><span style="color: rgb(80, 87, 99); text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: rgb(18, 42, 54); text-align: left;"><span style="color: rgb(80, 87, 99); text-align: start; background-color: rgba(230, 242, 245, 0.496094);"><span style="background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px; font-weight: bold; font-style: italic;">(Note: replace &lt;installed drive&gt; with your drive letter &amp; <span style="color: rgb(18, 42, 54); text-align: left;"><span style="text-align: start; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0);">&lt;install folder&gt; with the folder your compiler is installed in.)</span></span></span></span></span></span></p><p style="padding-left: 20px;"><span style="color: #505763; font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="color: #505763; font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094);"><span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">Save and restart Codelite.</span></span></span></span></span></span></p><p><span style="color: #505763; font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="color: #505763; font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094);"><span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">This will make the debugger error go away and work for locally created projects and imported projects without any more hassles.</span></span></span></span></span></span></p><p><span style="color: #505763; font-weight: 400; text-align: start; white-space: pre-wrap; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="color: #505763; font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094);"><span style="font-weight: 400; background-color: rgba(230, 242, 245, 0.496094);"><span style="color: #122A36; text-align: left;"><span style="font-weight: 400; text-align: start; background-color: rgba(230, 242, 245, 0.496094); color: rgb(0, 0, 0); font-family: Georgia; font-size: 14px;">There you go....One major hurdle out of the way....And it only took a couple hours of research and 1 minute to fix with an edit :( but, Hey atleast it works now :)</span></span></span></span></span></span></p></div>
+
+
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<div style="position:relative;display:inline-block;padding-left:50px;padding-right:50px"><p><br></p>
+
+<p><br>
+Copyright © 2019. All Rights of Content Contributors Reserved.</p><br></div>
+</footer>
+
+    </div>
+</div>
+
+
+</body></html>
