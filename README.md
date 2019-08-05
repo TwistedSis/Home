@@ -4,4 +4,4 @@ This Master Branch is just for sourcing for my blogging journal and to help othe
 
 Go ahead....give it a try :)
 
-My blog page on Github:  <a target="blank" href="https://twistedsis.github.io/home/">The TwistedSis Github Blog</a>
+My blog page on Github:  <a target="_blank" href="https://twistedsis.github.io/home/">The TwistedSis Github Blog</a>
