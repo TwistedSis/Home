@@ -1064,9 +1064,11 @@ div.art-block img
    border:1px solid transparent;
    padding:7px;
    margin:0 auto;
-   color: #102732;
+   color: #173DD3;
    font-size: 12px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
 }
 .art-blockcontent table,
 .art-blockcontent li, 
@@ -1075,9 +1077,11 @@ div.art-block img
 .art-blockcontent a:visited,
 .art-blockcontent a:hover
 {
-   color: #102732;
+   color: #173DD3;
    font-size: 12px;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
 }
 
 .art-blockcontent p
@@ -1087,22 +1091,29 @@ div.art-block img
 
 .art-blockcontent a, .art-blockcontent a:link
 {
-   color: #169ACA;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   color: #173DD3;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
 }
 
 .art-blockcontent a:visited, .art-blockcontent a.visited
 {
-   color: #4F9DC5;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   text-decoration: underline;
+   color: #173DD3;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: none;
 }
 
 .art-blockcontent a:hover, .art-blockcontent a.hover
 {
    color: #00C7EB;
-   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   text-decoration: underline;
+   font-size: 18px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: none;
 }
 .art-block ul>li:before
 {
