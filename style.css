@@ -386,12 +386,12 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-object11755144
 {
     display: block;
-    left: 100%;
-    margin-left: -200px;
+    left: 0%;
+    margin-left: 0px;
     position: absolute;
-    top: 5px;
-    width: 200px;
-    height: 195px;
+    top: 0px;
+    width: 98px;
+    height: 100px;
     background-image: url('images/object11755144.png');
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -401,112 +401,76 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .default-responsive .art-object11755144
 {
   display: none;
-}.art-object1488446561 h1, 
-.art-object1488446561 h2, 
-.art-object1488446561 h3, 
-.art-object1488446561 h4, 
-.art-object1488446561 h5, 
-.art-object1488446561 h6, 
-.art-object1488446561 p, 
-.art-object1488446561 a, 
-.art-object1488446561 ul, 
-.art-object1488446561 ol, 
-.art-object1488446561 li
+}.art-headline
 {
-  line-height: 125%;
-}
-
-.art-object1488446561
-{  
+  display: inline-block;
   position: absolute;
-  top: 6px;
-  left: 3.94%;
-  margin-left: -19px !important;
+  min-width: 50px;
+  top: 37px;
+  left: 19.53%;
+  margin-left: -57px !important;
+  line-height: 100%;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   transform: rotate(0deg);
-    overflow: hidden;
-      background-image: url('images/object1488446561.png');
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
-    z-index: 5;
-  width: 483px;
-  height: 180px;
+  z-index: 101;
 }
 
-.default-responsive .art-object1488446561
+.art-headline, 
+.art-headline a, 
+.art-headline a:link, 
+.art-headline a:visited, 
+.art-headline a:hover
 {
-    background-image: none;
-  }
-
-.art-object1488446561-text-container 
+font-size: 26px;
+font-family: Georgia, 'Times New Roman', Times, Serif;
+font-weight: bold;
+font-style: italic;
+text-decoration: none;
+text-align: left;
+text-shadow: 0px 0px 0px rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+  color: #000000 !important;
+  white-space: nowrap;
+}
+.art-slogan
 {
-    display: table;
+  display: inline-block;
+  position: absolute;
+  min-width: 50px;
+  top: 43px;
+  left: 70.48%;
+  line-height: 100%;
+  margin-left: -274px !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  z-index: 102;
+  white-space: nowrap;
 }
 
-.art-object1488446561-text
+.art-slogan, 
+.art-slogan a, 
+.art-slogan a:link, 
+.art-slogan a:visited, 
+.art-slogan a:hover
 {
-  display: table-cell;
-  outline-style: none;
-  padding: 27px 71px !important;
-  height: 126px;
-  width: 341px;  
-word-wrap: break-word;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, Serif;
+font-weight: bold;
+font-style: italic;
+text-decoration: none;
+text-align: left;
+  padding: 0;
+  margin: 0;
+  color: #000000 !important;
 }
 
-.default-responsive .art-object1488446561-text 
-{
-    height: auto;
-}
-
-.art-object1488446561-text,
-.art-object1488446561-text a.art-rss-tag-icon,
-.art-object1488446561-text a.art-facebook-tag-icon,
-.art-object1488446561-text a.art-twitter-tag-icon,
-.art-object1488446561-text a.art-tumblr-tag-icon,
-.art-object1488446561-text a.art-pinterest-tag-icon,
-.art-object1488446561-text a.art-vimeo-tag-icon,
-.art-object1488446561-text a.art-youtube-tag-icon,
-.art-object1488446561-text a.art-linkedin-tag-icon
-{
-font-size: 30px;
-font-family: Verdana, Geneva, Arial, Helvetica, Sans-Serif;
-text-align: center;
-vertical-align: middle;
-line-height: 125%;
-  color: #083545 !important;
-}
-
-.art-object1488446561-text a.art-rss-tag-icon,
-.art-object1488446561-text a.art-facebook-tag-icon,
-.art-object1488446561-text a.art-twitter-tag-icon,
-.art-object1488446561-text a.art-tumblr-tag-icon,
-.art-object1488446561-text a.art-pinterest-tag-icon,
-.art-object1488446561-text a.art-vimeo-tag-icon,
-.art-object1488446561-text a.art-youtube-tag-icon,
-.art-object1488446561-text a.art-linkedin-tag-icon
-{
-    width: 100%;
-}
-
-.default-responsive .art-object1488446561-text a.art-rss-tag-icon,
-.default-responsive .art-object1488446561-text a.art-facebook-tag-icon,
-.default-responsive .art-object1488446561-text a.art-twitter-tag-icon,
-.default-responsive .art-object1488446561-text a.art-tumblr-tag-icon,
-.default-responsive .art-object1488446561-text a.art-pinterest-tag-icon,
-.default-responsive .art-object1488446561-text a.art-vimeo-tag-icon,
-.default-responsive .art-object1488446561-text a.art-youtube-tag-icon,
-.default-responsive .art-object1488446561-text a.art-linkedin-tag-icon
-{
-    width: auto;
-}
-
-.art-textblock ul > li
-{
-    background-position-y: 8px !important;
-}
 
 
 
@@ -520,7 +484,7 @@ line-height: 125%;
    left:0;
    margin:0 auto;
    width: 100%;
-   height: 200px;
+   height: 100px;
    z-index: auto;
    background-position: center top;
    background-image: url('images/header.png');
@@ -537,7 +501,7 @@ line-height: 125%;
    margin:3px auto 0;
    position:relative;
    cursor:auto;
-   width: 66%;
+   width: 100%;
    min-width: 700px;
    max-width: 1920px;
    z-index: auto !important;
@@ -547,7 +511,7 @@ line-height: 125%;
 {
    margin:0 auto;
    background-repeat: no-repeat;
-   height: 200px;
+   height: 100px;
    background-image: url('images/header.png');
    background-position: center top;
    position: relative;
@@ -1014,10 +978,394 @@ ul.art-hmenu ul
    border-collapse: collapse;
 }
 
+.art-vmenublock
+{
+   border:1px solid transparent;
+   margin:5px;
+}
+div.art-vmenublock img
+{
+   margin: 0;
+}
+
+.art-vmenublockheader
+{
+   background: #18A8DD;
+   background: -webkit-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -moz-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -o-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -ms-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   -svg-background: linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: linear-gradient(to bottom, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   -webkit-border-radius:10px 10px 0 0;
+   -moz-border-radius:10px 10px 0 0;
+   border-radius:10px 10px 0 0;
+   border-top:1px solid #18A8DD;
+   padding:10px 3px;
+   margin:0 auto;
+}
+.art-vmenublockheader .t,
+.art-vmenublockheader .t a,
+.art-vmenublockheader .t a:link,
+.art-vmenublockheader .t a:visited, 
+.art-vmenublockheader .t a:hover
+{
+   color: #000000;
+   font-size: 20px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
+   margin: 0 10px;
+}
+
+.art-vmenublockheader .t:before
+{
+   content:url('images/vmenublockheadericon.png');
+   margin-right:6px;
+   bottom: 3px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera .art-vmenublockheader .t:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+.art-vmenublockcontent
+{
+   background: #E0EEF5;
+   -webkit-border-radius:0 0 10px 10px;
+   -moz-border-radius:0 0 10px 10px;
+   border-radius:0 0 10px 10px;
+   border:1px solid #75B3D1;
+   padding:3px;
+   margin:0 auto;
+}
+
+ul.art-vmenu, ul.art-vmenu ul
+{
+   list-style: none;
+   display: block;
+}
+
+ul.art-vmenu, ul.art-vmenu li
+{
+   display: block;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   line-height: 0;
+}
+
+ul.art-vmenu
+{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+ul.art-vmenu ul
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+
+ul.art-vmenu ul.active
+{
+   display: block;
+}
+
+ul.art-vmenu>li>a
+{
+   padding:0 10px;
+   margin:0 auto;
+   font-size: 16px;
+   font-family: Georgia, 'Times New Roman', Times, Serif;
+   font-weight: bold;
+   font-style: italic;
+   text-decoration: underline;
+   color: #204A60;
+   min-height: 30px;
+   line-height: 30px;
+}
+ul.art-vmenu a 
+{
+   display: block;
+   cursor: pointer;
+   z-index: 1;
+   position:relative;
+}
+
+ul.art-vmenu li{
+   position:relative;
+}
+
+ul.art-vmenu>li
+{
+   margin-top: 0;
+}
+ul.art-vmenu>li>ul
+{
+   padding: 0;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+ul.art-vmenu>li:first-child
+{
+   margin-top:0;
+}
+
+ul.art-vmenu>li>a:before
+{
+   content:url('images/vmenuitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu>li>a.active:before
+{
+   content:url('images/vmenuactiveitemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu>li>a:hover:before,  ul.art-vmenu>li>a.active:hover:before,  ul.art-vmenu>li:hover>a:before,  ul.art-vmenu>li:hover>a.active:before
+{
+   content:url('images/vmenuhovereditemicon.png');
+   margin-right:5px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu>li>a:hover:before, .opera   ul.art-vmenu>li>a.active:hover:before, .opera   ul.art-vmenu>li:hover>a:before, .opera   ul.art-vmenu>li:hover>a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu>li>a:hover, ul.art-vmenu>li>a.active:hover
+{
+   padding:0 10px;
+   margin:0 auto;
+}
+ul.art-vmenu>li>a:hover, ul.art-vmenu>li>a.active:hover
+{
+   text-decoration: underline;
+}
+
+ul.art-vmenu a:hover, ul.art-vmenu a.active:hover 
+{
+   color: #2C93BE;
+}
+
+ul.art-vmenu>li>a.active:hover>span.border-top, ul.art-vmenu>li>a.active:hover>span.border-bottom 
+{
+   background-color: transparent;
+}
+
+ul.art-vmenu>li>a.active
+{
+   padding:0 10px;
+   margin:0 auto;
+   text-decoration: underline;
+   color: #17A1D4;
+}
+
+ul.art-vmenu>li>ul:before
+{
+   margin:0 auto;
+   display: block;
+   position: absolute;
+   content: ' ';
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+ul.art-vmenu li li a
+{
+   margin:0 auto;
+   position: relative;
+}
+ul.art-vmenu ul li
+{
+   margin: 0;
+   padding: 0;
+}
+ul.art-vmenu li li{
+   position: relative;
+   margin-top: 0;
+}
+
+ul.art-vmenu ul a
+{
+   display: block;
+   position: relative;
+   min-height: 24px;
+   overflow: visible;
+   padding: 0;
+   padding-left: 23px;
+   padding-right: 23px;
+   z-index: 0;
+   line-height: 24px;
+   color: #204A60;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active
+{
+   line-height: 24px;
+   color: #204A60;
+   font-size: 12px;
+   font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   margin-left: 0;
+   margin-right: 0;
+}
+
+ul.art-vmenu ul ul a
+{
+   padding-left: 46px;
+}
+ul.art-vmenu ul ul ul a
+{
+   padding-left: 69px;
+}
+ul.art-vmenu ul ul ul ul a
+{
+   padding-left: 92px;
+}
+ul.art-vmenu ul ul ul ul ul a
+{
+   padding-left: 115px;
+}
+
+ul.art-vmenu li li a:before
+{
+   content:url('images/vmenusubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu ul>li>a:hover, ul.art-vmenu ul>li>a.active:hover
+{
+   background: #42BEEB;
+   margin:0 auto;
+}
+ul.art-vmenu ul li a:hover, ul.art-vmenu ul li a.active:hover
+{
+   text-decoration: none;
+   color: #185068;
+}
+
+ul.art-vmenu ul a:hover:after
+{
+   background-position: center ;
+}
+ul.art-vmenu ul a.active:hover:after
+{
+   background-position: center ;
+}
+ul.art-vmenu ul a.active:after
+{
+   background-position: bottom ;
+}
+
+ul.art-vmenu li li a:hover:before
+{
+   content:url('images/vmenuhoveredsubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a:hover:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
+ul.art-vmenu ul>li>a.active
+{
+   margin:0 auto;
+}
+ul.art-vmenu ul a.active, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active:hover
+{
+   text-decoration: none;
+   color: #3A89B0;
+}
+
+ul.art-vmenu li li a.active:before
+{
+   content:url('images/vmenuactivesubitemicon.png');
+   margin-right:10px;
+   bottom: 2px;
+   position:relative;
+   display:inline-block;
+   vertical-align:middle;
+   font-size:0;
+   line-height:0;
+}
+.opera ul.art-vmenu li li a.active:before
+{
+   /* Vertical-align:middle in Opera doesn't need additional offset */
+    bottom: 0;
+}
+
 .art-block
 {
    border:1px solid transparent;
-   margin:3px;
+   margin:5px;
 }
 div.art-block img
 {
@@ -1027,6 +1375,17 @@ div.art-block img
 
 .art-blockheader
 {
+   background: #18A8DD;
+   background: -webkit-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -moz-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -o-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: -ms-linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   -svg-background: linear-gradient(top, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   background: linear-gradient(to bottom, #55C4EC 0, #19AFE6 43%, #117497 100%) no-repeat;
+   -webkit-border-radius:10px 10px 0 0;
+   -moz-border-radius:10px 10px 0 0;
+   border-radius:10px 10px 0 0;
+   border-top:1px solid #42BEEB;
    padding:12px 7px;
    margin:0 auto;
 }
@@ -1036,11 +1395,11 @@ div.art-block img
 .art-blockheader .t a:visited, 
 .art-blockheader .t a:hover
 {
-   color: #094357;
-   font-size: 20px;
+   color: #000000;
+   font-size: 18px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
-   font-weight: normal;
-   font-style: normal;
+   font-weight: bold;
+   font-style: italic;
    margin: 0 10px;
 }
 
@@ -1048,7 +1407,7 @@ div.art-block img
 {
    content:url('images/blockheadericon.png');
    margin-right:6px;
-   bottom: 3px;
+   bottom: 2px;
    position:relative;
    display:inline-block;
    vertical-align:middle;
@@ -1063,10 +1422,14 @@ div.art-block img
 
 .art-blockcontent
 {
-   border:1px solid transparent;
+   background: #E0EEF5;
+   -webkit-border-radius:0 0 10px 10px;
+   -moz-border-radius:0 0 10px 10px;
+   border-radius:0 0 10px 10px;
+   border:1px solid #97C6DD;
    padding:7px;
    margin:0 auto;
-   color: #173DD3;
+   color: #000000;
    font-size: 12px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: bold;
@@ -1079,7 +1442,7 @@ div.art-block img
 .art-blockcontent a:visited,
 .art-blockcontent a:hover
 {
-   color: #173DD3;
+   color: #000000;
    font-size: 12px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: bold;
@@ -1094,7 +1457,7 @@ div.art-block img
 .art-blockcontent a, .art-blockcontent a:link
 {
    color: #173DD3;
-   font-size: 18px;
+   font-size: 16px;
    font-family: Georgia, 'Times New Roman', Times, Serif;
    font-weight: bold;
    font-style: italic;
@@ -1129,7 +1492,7 @@ div.art-block img
    vertical-align:middle;
    font-size:0;
    line-height:0;
-   margin-left: -10px;
+   margin-left: -14px;
 }
 .opera .art-block ul>li:before
 {
@@ -1155,7 +1518,7 @@ div.art-block img
 
 .art-block ul>li
 {
-   padding-left: 10px;
+   padding-left: 14px;
 }
 
 .art-breadcrumbs

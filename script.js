@@ -546,6 +546,16 @@ jQuery(function ($) {
     $(window).trigger('resize');
 });
 
+jQuery(function($) {
+    "use strict";
+    if (!$('html').hasClass('ie7')) {
+        return;
+    }
+    $('ul.art-vmenu li:not(:first-child),ul.art-vmenu li li li:first-child,ul.art-vmenu>li>ul').each(function () { $(this).append('<div class="art-vmenu-separator"> </div><div class="art-vmenu-separator-bg"> </div>'); });
+});
+
+
+
 var artButtonSetup = (function ($) {
     'use strict';
     return (function (className) {
@@ -1191,35 +1201,51 @@ if (typeof window.defaultResponsiveData === 'undefined') window.defaultResponsiv
 
 resizeData['object11755144'] = {
    responsive: [
-                  { left: 1, top: 1.03, visible: true }, 
-                  { left: 1, top: 1.03, visible: true }, 
-                  { left: 1, top: 1.03, visible: true }, 
-                  { left: 1, top: 1.03, visible: true }, 
-                  { left: 1, top: 1.03, visible: true }, 
+                  { left: -0.04, top: 0, visible: true }, 
+                  { left: -0.04, top: 0, visible: true }, 
+                  { left: -0.04, top: 0, visible: true }, 
+                  { left: -0.04, top: 0, visible: true }, 
+                  { left: -0.04, top: 0, visible: true }, 
                ],
    area: {
        x: 0,
        y: 0
    },
-   width: 200,
-   height: 200,
+   width: 102,
+   height: 102,
    autoWidth: false};
 
-resizeData['object1488446561'] = {
+resizeData['headline'] = {
    responsive: [
-                  { left: 0.04, top: 0.3, visible: true }, 
-                  { left: 0.04, top: 0.3, visible: true }, 
-                  { left: 0.04, top: 0.3, visible: true }, 
-                  { left: 0.04, top: 0.3, visible: true }, 
-                  { left: 0.04, top: 0.3, visible: true }, 
+                  { left: 0.2, top: 0.54, visible: true }, 
+                  { left: 0.2, top: 0.54, visible: true }, 
+                  { left: 0.2, top: 0.54, visible: true }, 
+                  { left: 0.2, top: 0.54, visible: true }, 
+                  { left: 0.2, top: 0.54, visible: true }, 
                ],
    area: {
        x: 0,
        y: 0
    },
-   width: 483,
-   height: 180,
-   autoWidth: false};
+   width: 293,
+   height: 31,
+   autoWidth: true};
+
+resizeData['slogan'] = {
+   responsive: [
+                  { left: 0.7, top: 0.52, visible: true }, 
+                  { left: 0.7, top: 0.52, visible: true }, 
+                  { left: 0.7, top: 0.52, visible: true }, 
+                  { left: 0.7, top: 0.52, visible: true }, 
+                  { left: 0.7, top: 0.52, visible: true }, 
+               ],
+   area: {
+       x: 0,
+       y: 0
+   },
+   width: 389,
+   height: 18,
+   autoWidth: true};
 
 // used to apply compicated values in style like '!important!
 function applyCss(object, param, value) {
