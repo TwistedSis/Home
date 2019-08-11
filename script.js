@@ -1217,11 +1217,11 @@ resizeData['object11755144'] = {
 
 resizeData['headline'] = {
    responsive: [
-                  { left: 0.47, top: 0.22, visible: true }, 
-                  { left: 0.47, top: 0.22, visible: true }, 
-                  { left: 0.47, top: 0.22, visible: true }, 
-                  { left: 0.47, top: 0.22, visible: true }, 
-                  { left: 0.47, top: 0.22, visible: true }, 
+                  { left: 0.5, top: 0.22, visible: true }, 
+                  { left: 0.5, top: 0.22, visible: true }, 
+                  { left: 0.5, top: 0.22, visible: true }, 
+                  { left: 0.5, top: 0.22, visible: true }, 
+                  { left: 0.5, top: 0.22, visible: true }, 
                ],
    area: {
        x: 0,
@@ -1233,11 +1233,11 @@ resizeData['headline'] = {
 
 resizeData['slogan'] = {
    responsive: [
-                  { left: 0.47, top: 0.73, visible: true }, 
-                  { left: 0.47, top: 0.73, visible: true }, 
-                  { left: 0.47, top: 0.73, visible: true }, 
-                  { left: 0.47, top: 0.73, visible: true }, 
-                  { left: 0.47, top: 0.73, visible: true }, 
+                  { left: 0.5, top: 0.74, visible: true }, 
+                  { left: 0.5, top: 0.74, visible: true }, 
+                  { left: 0.5, top: 0.74, visible: true }, 
+                  { left: 0.5, top: 0.74, visible: true }, 
+                  { left: 0.5, top: 0.74, visible: true }, 
                ],
    area: {
        x: 0,
